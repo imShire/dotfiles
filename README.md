@@ -17,7 +17,7 @@ $ ./apps
 ### Terminal & Shell
 
 - [x] Install [Homebrew](https://brew.sh)
-- [x] Setup Hostname `sudo scutil --set HostName svend-macbook`
+- [x] Setup Hostname `sudo scutil --set HostName shire-mbp`
 - [x] Install softwares and fonts from [Brewfile](https://github.com/gee1k/dotfiles/blob/master/Brewfile) with `brew bundle`. HINT: Login to AppStore at first. Some of the applications from Mac App Store may need purchase.
 - [x] Install `zsh`, `oh-my-zsh` and setup `.zshrc`
 - [x] Setup SpaceVim

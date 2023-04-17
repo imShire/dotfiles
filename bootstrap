@@ -9,7 +9,7 @@ if test ! "$(which brew)"; then
 fi
 
 echo "Setup hostname"
-sudo scutil --set HostName svend-macbook
+sudo scutil --set HostName shire-mbp
 
 echo "Install with Brew Bundle"
 set +e

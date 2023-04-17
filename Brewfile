@@ -23,15 +23,15 @@ else
   brew 'gh'
   brew 'git-flow'
   brew 'vim'
-  brew 'fnm'
+  brew 'fnm' # 替换nvm
   brew "commitizen"
-  brew "orbstack"
+  # brew "orbstack"
 
   # [brew] productivity
   brew 'wget'
   brew 'mas'
   brew 'bat'
-  brew 'tokei'
+  # brew 'tokei'
   cask 'keka'
 
   # [brew] tools
@@ -46,34 +46,45 @@ else
   cask 'font-lxgw-wenkai'
 
   # [cask] dev
+  cask 'firefox'
+  cask 'popclip'
   cask 'visual-studio-code'
   cask 'jetbrains-toolbox'
+  cask 'webstorm'
   cask 'iterm2'
-  cask 'figma'
+  # cask 'figma'
   cask 'balenaetcher'
   cask 'fork'
-  cask 'mqttx'
-  cask 'xcodes'
+  cask 'sourcetree'
+  cask 'termius'
+  # cask 'mqttx'
+  # cask 'xcodes'
   cask 'postman'
-  cask 'rapidapi'
+  # cask 'rapidapi'
 
   # [cask] productivity
-  cask '1password7'
+  # cask '1password7'
   cask 'google-chrome'
   cask 'snipaste'
-  cask 'onedrive'
+  # cask 'onedrive'
   cask 'obsidian'
 
   # [cask] entertainment
   cask 'iina'
   cask 'neteasemusic'
   cask 'spotify'
-  cask 'yt-music'
+  #cask 'yt-music'
 
   # [cask] tools
-  cask 'account-switcher'
+  cask 'squirrel'
+  cask 'input-source-pro'
+  cask 'eul'
+  cask 'mimestream'
+  cask 'daisydisk'
+  cask 'app-cleaner'
+  cask 'pictureview'
   cask 'openinterminal'
-  cask 'logitech-options'
+  # cask 'logitech-options'
   cask 'motrix'
   cask 'tencent-meeting'
 
@@ -84,14 +95,8 @@ else
   mas 'Microsoft Word', id: 462054704
   mas 'Microsoft Excel', id: 462058435
   mas 'Microsoft PowerPoint', id: 462062816
-  # mas 'Tampermonkey', id: 1482490089
-  mas 'Octotree', id: 1457450145
-  mas 'JSONPeep', id: 1458969831
   mas 'WeChat', id: 836_500_024
-  mas 'CotEditor', id: 1024640650
-  mas 'uBlacklist for Safari', id: 1547912640
+  #mas 'uBlacklist for Safari', id: 1547912640
   mas 'Magnet', id: 441258766
-  mas 'Sequel Ace', id: 1518036000
   mas 'Bob', id: 1630034110
-  mas 'CotEditor',id: 1024640650
 end
