@@ -4,7 +4,7 @@
 
 ```shell
 $ xcode-select --install # or download here <https://developer.apple.com/download/more/>
-$ git clone --recursive https://github.com/gee1k/dotfiles.git
+$ git clone --recursive https://github.com/imShire/dotfiles.git
 # Login to AppStore with Apple ID, since there are MAS apps in Brewfile
 $ cd dotfiles
 $ ./bootstrap
